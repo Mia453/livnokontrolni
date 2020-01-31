@@ -5,66 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Livno,BiH</title>
-    <style>
-        h1{
-            font-family: Verdana, sans-serif;
-        }
-        h3{
-            font-family: Helvetica, sans-serif;
-            line-height: 0.7em;
-        }
-        .basajkovac{
-            background-color: rgb(180, 205, 228);
-            font-family: Helvetica, sans-serif;
-            line-height: 1.3em;
-            margin-right: 10px;
-            margin:auto;
-            padding: 7px;  
-            position:relative;
-        
-            
-        }
-        .tekst{
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        top: 45%;
-        left: 48%;
-        transform: translate(-50%, -50%);
-       }
-       #bistrica{
-            text-decoration: underline;
-       }
-       #wikipedija{
-           background-color: #333;
-           color:#fff;
-           padding: 7px;
-           height: 70%;
-       }
+
+       <style>
+     
+     #web {
+  font-family: "verdana", sans-serif;
+}
+
+#basajkovac {
+  font-family: "helvetica", sans-serif;
+    font-style: normal;
+}
+#wikipedija{
+  background-color:#333;
+  color:#fff;
+  width: 70%;
+  padding:7px;
+}
+a{
+  color: #fff;
+  text-decoration:none;
+  
+}
+
+#bistrica {
+  background-color: rgb(180,205,228);
+  width:70%;
+}
+
+#underline {
+  line-height: 1.3em;
+}
+           
+#image {
+  margin-right:10px;
+    float:left;
+}
+           
+#klime {
+  line-height: 0.7em;
+    text-decoration:none;
+}
+
+#livno {
+  text-decoration: underline;
+}
+           
     </style>
+
 </head>
 <body>
-    <h1>Livno</h1>
-    <div class="boja">
-    <div class="basajkovac">
-    <p>
-        <h3>O Livnu</h3>
-        <img src="livno.jpg" width="300">
-        <div class="tekst">
-      <em> <strong><span id="bistrica"> Livno je grad u jugozapadnom dijelu Bosne i Hercegovine.</span></strong>Najzanačajniji je grad u Hercegbosanskoj županiji, čije je kulturno i gospodarsko
-        središte, te je drugi po veličini grad s većinskim hrvatskim stanovništvom u Bosni i Hercegovini.Grad leži na 724 m nadmorske visine na
-        istoku centraknog dijela Livanjskog polja, većim dijelom na obroncima i u podnožju brda Bašajkovac, iz kojeg izhvire i krška rijeka-Bistrica.</em>
-
-        <h3>Klima</h3>
-      <em>  Klima je umjereno kontinentalna s jakim vjetrovima. Prosječna godišnja temperatura zadnjih 57 godina (1951. - 2008.) iznosi 9,3°C.
-        Ljeta su mahom duga i sunčana (2008: 2.474 sati), zime snježne. 
-        </em>
-    </p>
-    </div>
-    </div>
-   <div id="wikipedija"> Pročitajte više na <a href="https://hr.wikipedia.org/wiki/Livno">Wikipedia</a></div>
-</div>
-</body>
+  <h1 id="web"> Livno </h1> 
+  <div id="bistrica"> 
+   <table> 
+    <tbody> 
+     <tr> 
+      <td> <h3 id="basajkovac"> O Livnu </h3> <img src="livno.jpg" width="300"  id="image"></td> 
+      <td><p id="underline"><span id="livno"> Livno je grad u jugozapadnom dijelu Bosne i Hercegovine. </span>
+          Najznačajniji je grad u Hercegbosanskoj županiji, čije je kulturno i gospodarsko središte, te je drugi po veličini grad 
+          s većinskim hrvatskim stanovništvom u Bosni i Hercegovini. Grad leži na 724 m nadmorske visine na istoku centralnog dijela
+          Livanjskog polja, većim dijelom na obroncima i u podnožju brda Bašajkovac, iz kojeg izvire i krška rijeka Bistrica.
+          </p> <h3 id="klime"> Klima </h3><p> Klima je umjereno kontinentalna s jakim vjetrovima. Prosječna godišnja temperatura 
+          zadnjih 57 godina (1951. - 2008.) iznosi 9,3°C. Ljeta su mahom duga i sunčana (2008: 2.474 sati), zime snježne. </p></td> 
+     </tr> 
+    </tbody> 
+   </table> 
+  </div> 
+  
+  <div id="wikipedija">
+  
+    Pročitajte više na 
+   <a href="https://hr.wikipedia.org/wiki/Livno"> Wikipedia.</a> 
+  </div> 
+ </body> 
 </html>
